@@ -22,7 +22,7 @@ def add_clothing(brand,category,sub_category,color,material,thrifted):
             "brand": brand,
             "category": category,
             "sub_category": sub_category,
-            "color": color,
+            "color": sorted(color),
             "material": material,
             "thrifted": thrifted
         }
